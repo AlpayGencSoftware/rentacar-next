@@ -21,7 +21,7 @@ const SearchBar = () => {
     const [manufacturer, setManuFacturer]=useState('');
     const [model, setModel]=useState('');
 
-    const router=useRouter();
+    const router=useRouter(); 
 
     const handleSearch = (e: React.FormEvent<HTMLFormElement>) => {
       e.preventDefault();
