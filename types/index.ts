@@ -43,10 +43,16 @@ export interface OptionProps{
 }
 
 export interface CustomFilterProps {
-  title: string;
+  title: string; 
   options: OptionProps[];
 }
 
 export interface HomeProps{
   searchParams: FilterProps;
+}
+
+
+export interface ShowMoreProps{
+  pageNumber:number;
+  isNext:boolean;
 }
