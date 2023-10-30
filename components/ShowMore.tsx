@@ -20,5 +20,5 @@ const ShowMore = ({pageNumber, isNext, setLimit}:ShowMoreProps) => {
     </div>
   )
 }
-
+ 
 export default ShowMore
